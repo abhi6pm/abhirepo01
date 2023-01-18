@@ -2,3 +2,5 @@
 from uuid import uuid4
 def lambda_handler(event, context):
     s3 = boto3.client("s3")
+
+Error in this boto 3 line bro
